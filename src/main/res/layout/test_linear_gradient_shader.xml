@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start color: "/>
+
+        <EditText
+            android:id="@+id/edit_start_color_a"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="0.25"
+            android:inputType="numberSigned"
+            android:hint="a"/>
+
+        <EditText
+            android:id="@+id/edit_start_color_r"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="0.25"
+            android:inputType="numberSigned"
+            android:hint="r"/>
+
+        <EditText
+            android:id="@+id/edit_start_color_g"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="0.25"
+            android:inputType="numberSigned"
+            android:hint="g"/>
+
+        <EditText
+            android:id="@+id/edit_start_color_b"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="0.25"
+            android:inputType="numberSigned"
+            android:hint="b"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="End color: "/>
+
+        <EditText
+            android:id="@+id/edit_end_color_a"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="0.25"
+            android:inputType="numberSigned"
+            android:hint="a"/>
+
+        <EditText
+            android:id="@+id/edit_end_color_r"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="0.25"
+            android:inputType="numberSigned"
+            android:hint="r"/>
+
+        <EditText
+            android:id="@+id/edit_end_color_g"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="0.25"
+            android:inputType="numberSigned"
+            android:hint="g"/>
+
+        <EditText
+            android:id="@+id/edit_end_color_b"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="0.25"
+            android:inputType="numberSigned"
+            android:hint="b"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start point: "/>
+
+        <EditText
+            android:id="@+id/edit_start_point_x_percentage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="0.5"
+            android:inputType="numberSigned"
+            android:hint="x percentage"/>
+
+        <EditText
+            android:id="@+id/edit_start_point_y_percentage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="0.5"
+            android:inputType="numberSigned"
+            android:hint="y percentage"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="End point: "/>
+
+        <EditText
+            android:id="@+id/edit_end_point_x_percentage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="0.5"
+            android:inputType="numberSigned"
+            android:hint="x percentage"/>
+
+        <EditText
+            android:id="@+id/edit_end_point_y_percentage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="0.5"
+            android:inputType="numberSigned"
+            android:hint="y percentage"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_draw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Draw"/>
+    
+    <ImageView
+        android:id="@+id/img_target"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="5dp"/>
+
+</LinearLayout>

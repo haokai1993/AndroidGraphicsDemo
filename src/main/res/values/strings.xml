@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TestGraphics</string>
+
+    <string-array name="tile_mode">
+        <item>CLAMP</item>
+        <item>REPEAT</item>
+        <item>MIRROR</item>
+    </string-array>
+</resources>

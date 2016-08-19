@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp" >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Source image:"/>
+
+        <ImageView
+            android:id="@+id/img_source"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="centerInside"/>
+
+        <Button
+            android:id="@+id/btn_region_decode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="region decode"/>
+
+        <ImageView
+            android:id="@+id/img_target"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+
+    </LinearLayout>
+</ScrollView>
+<!-- From: file:/Users/zhanglong/Work/Learning/Android/Graphics/src/main/res/layout/test_bitmap_region_decoder.xml -->

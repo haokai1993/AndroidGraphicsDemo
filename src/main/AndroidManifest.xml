@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.zlsam.learngraphics"
+      android:versionCode="1"
+      android:versionName="1.0">
+
+      <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="22"/>
+    <application
+        android:label="@string/app_name"
+        android:icon="@drawable/ic_launcher">
+        <activity android:name=".MainActivity"
+            android:label="@string/app_name">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".bitmap.TestBitmapActivity"
+                  android:label="@string/app_name">
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity android:name=".bitmap.TestBitmapRegionDecoderActivity" >
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity android:name=".shader.TestBitmapShaderActivity">
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity android:name=".shader.TestLinearGradientShaderActivity">
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity android:name=".bitmap.TestBitmapApiPerformanceActivity"
+            android:label="@string/app_name">
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity android:name=".porterduff.TestPorterDuffXfermodeActivity"
+            android:label="TestPorterDuff"/>
+
+        <activity android:name=".patheffect.TestPathEffectActivity"/>
+        <activity android:name=".patheffect.TestCornerPathEffectActivity"/>
+    </application>
+</manifest>

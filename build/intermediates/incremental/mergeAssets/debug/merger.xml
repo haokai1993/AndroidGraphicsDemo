@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/zhanglong/Work/Learning/Android/Graphics/src/main/assets"><file name="img/test_img1.jpg" path="/Users/zhanglong/Work/Learning/Android/Graphics/src/main/assets/img/test_img1.jpg"/></source></dataSet><dataSet config="debug"><source path="/Users/zhanglong/Work/Learning/Android/Graphics/src/debug/assets"/></dataSet></merger>

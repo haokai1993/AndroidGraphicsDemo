@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffffff"
+        android:gravity="center_horizontal">
+
+        <!-- Corner path effect -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Corner Path effect"
+            android:textColor="@android:color/black"/>
+
+        <SeekBar
+            android:id="@+id/seekbar_corner_path_effect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:max="1000"/>
+
+        <com.zlsam.learngraphics.patheffect.CornerPathEffectView
+            android:id="@+id/corner_path_effect_view"
+            android:layout_width="match_parent"
+            android:layout_height="150dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffdddddd"/>
+
+        <!-- Dash path effect -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Dash Path effect"
+            android:textColor="@android:color/black"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Solid length:"
+                android:textColor="@android:color/black"/>
+
+            <SeekBar
+                android:id="@+id/seekbar_dash_path_effect_solid_length"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:max="99" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="Virtual length:"/>
+
+            <SeekBar
+                android:id="@+id/seekbar_dash_path_effect_virtual_length"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:max="99"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phase:"
+                android:textColor="@android:color/black"/>
+
+            <SeekBar
+                android:id="@+id/seekbar_dash_path_effect_phase"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:max="100"/>
+        </LinearLayout>
+
+        <com.zlsam.learngraphics.patheffect.DashPathEffectView
+            android:id="@+id/dash_path_effect_view"
+            android:layout_width="match_parent"
+            android:layout_height="150dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffdddddd"/>
+
+        <!-- Discrete path effect -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Discrete Path effect"
+            android:textColor="@android:color/black"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Segment length:"
+                android:textColor="@android:color/black"/>
+
+            <SeekBar
+                android:id="@+id/seekbar_discrete_path_effect_segment_length"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:max="99" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="Deviation:"/>
+
+            <SeekBar
+                android:id="@+id/seekbar_discrete_path_effect_deviation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:max="99"/>
+        </LinearLayout>
+
+        <com.zlsam.learngraphics.patheffect.DiscretePathEffectView
+            android:id="@+id/discrete_path_effect_view"
+            android:layout_width="match_parent"
+            android:layout_height="150dp" />
+
+        <!-- Path dash path effect -->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffdddddd"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Path dash Path effect"
+            android:textColor="@android:color/black"/>
+
+        <com.zlsam.learngraphics.patheffect.PathDashPathEffectView
+            android:id="@+id/path_dash_path_effect_view"
+            android:layout_width="match_parent"
+            android:layout_height="150dp" />
+
+        <!-- Compose path effect -->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffdddddd"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Compose Path effect"
+            android:textColor="@android:color/black"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Corner radius:"
+                android:textColor="@android:color/black"/>
+
+            <SeekBar
+                android:id="@+id/seekbar_compose_path_effect_radius"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:max="100" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Solid length:"
+                android:textColor="@android:color/black"/>
+
+            <SeekBar
+                android:id="@+id/seekbar_compose_path_effect_solid_length"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:max="99" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="Virtual length:"/>
+
+            <SeekBar
+                android:id="@+id/seekbar_compose_path_effect_virtual_length"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:max="99"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phase:"
+                android:textColor="@android:color/black"/>
+
+            <SeekBar
+                android:id="@+id/seekbar_compose_path_effect_phase"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:max="100"/>
+        </LinearLayout>
+
+        <com.zlsam.learngraphics.patheffect.ComposePathEffectView
+            android:id="@+id/compose_path_effect_view"
+            android:layout_width="match_parent"
+            android:layout_height="150dp" />
+
+        <!-- Sum path effect -->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffdddddd"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Sum Path effect"
+            android:textColor="@android:color/black"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Corner radius:"
+                android:textColor="@android:color/black"/>
+
+            <SeekBar
+                android:id="@+id/seekbar_sum_path_effect_radius"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:max="100" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Solid length:"
+                android:textColor="@android:color/black"/>
+
+            <SeekBar
+                android:id="@+id/seekbar_sum_path_effect_solid_length"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:max="99" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="Virtual length:"/>
+
+            <SeekBar
+                android:id="@+id/seekbar_sum_path_effect_virtual_length"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:max="99"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phase:"
+                android:textColor="@android:color/black"/>
+
+            <SeekBar
+                android:id="@+id/seekbar_sum_path_effect_phase"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:max="100"/>
+        </LinearLayout>
+
+        <com.zlsam.learngraphics.patheffect.SumPathEffectView
+            android:id="@+id/sum_path_effect_view"
+            android:layout_width="match_parent"
+            android:layout_height="150dp" />
+
+    </LinearLayout>
+
+</ScrollView>

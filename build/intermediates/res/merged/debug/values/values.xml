@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/zhanglong/Work/Learning/Android/Graphics/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="tile_mode">
+        <item>CLAMP</item>
+        <item>REPEAT</item>
+        <item>MIRROR</item>
+    </string-array>
+    <string name="app_name">TestGraphics</string>
+</resources>
