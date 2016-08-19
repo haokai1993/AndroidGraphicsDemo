@@ -134,7 +134,7 @@
       <file leaf-file-name="SumPathEffectView.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zlsam/learngraphics/patheffect/SumPathEffectView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.5522387">
+            <state vertical-scroll-proportion="2.775974">
               <caret line="61" column="29" selection-start-line="0" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -1002,9 +1002,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zlsam/learngraphics/patheffect/PathDashPathEffectView.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zlsam/learngraphics/patheffect/ComposePathEffectView.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zlsam/learngraphics/patheffect/DashPathEffectView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zlsam/learngraphics/patheffect/SumPathEffectView.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zlsam/learngraphics/patheffect/TestCornerPathEffectActivity.java" />
         <option value="$PROJECT_DIR$/src/main/res/layout/page_test_corner_path_effect.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zlsam/learngraphics/patheffect/SumPathEffectView.java" />
       </list>
     </option>
   </component>
@@ -1629,10 +1629,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="55" column="57" selection-start-line="55" selection-start-column="57" selection-end-line="55" selection-end-column="57" />
           <folding>
-            <element signature="e#326#344#0" expanded="true" />
-            <element signature="e#464#482#0" expanded="true" />
-            <element signature="e#800#818#0" expanded="true" />
-            <element signature="e#2141#2159#0" expanded="true" />
+            <element signature="e#326#344#0" expanded="false" />
+            <element signature="e#464#482#0" expanded="false" />
+            <element signature="e#464#482#0" expanded="false" />
+            <element signature="e#2141#2159#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1861,7 +1861,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zlsam/learngraphics/patheffect/SumPathEffectView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.5522387">
+        <state vertical-scroll-proportion="2.775974">
           <caret line="61" column="29" selection-start-line="0" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
